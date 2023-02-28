@@ -394,3 +394,161 @@
 
 // console.log(studentsScore.sort())
 
+                            //-ARRAYS & LOOPS
+          
+// Q1: Declare and initialize an empty multidimensional array.
+// (Array of arrays) &&
+// Q3: Write a program to print numeric counting from 1 to 10.
+
+
+// var arr = []
+
+// for (let a = 1; a < 10; a++){
+//     console.log(arr + a)
+// }
+
+// Q2: Declare and initialize a multidimensional array
+// representing the following matrix:
+
+// var arr1 = [0, 1, 2, 3]
+// var arr2 = [1, 0, 1, 2]
+// var arr3 = [2, 1, 0, 1]
+
+// for(a = 0; a <= arr1.length - 1; a++){
+//     console.log(arr1[a])
+// }
+// for(let a = 0; a <= arr2.length - 1; a++){
+//     console.log(arr1[a])
+// }
+// for(let a = 0; a <= arr3.length - 1; a++){
+//     console.log(arr1[a])
+// }
+
+// Q4: Write a program to print multiplication table of any
+// number using for loop. Table number & length should be
+// taken as an input from user.
+
+// var tableNum = +prompt("Which number you want the table of?")
+// var tableLength = +prompt("Enter the length of table?")
+
+// for(let a = 1; a <= tableLength ; a++){
+//         console.log(tableNum * a)
+// }
+
+// var bakeryItems = ["pastry", "bread", "jam", "colddrinks", "cake", "jelly", "juices"]
+
+// for (let a = 0; a < bakeryItems.length; a++) {
+//         console.log(bakeryItems[a])
+// }
+
+// Q5: Write a program to print items of the following array
+// using for loop:
+// fruits = [“apple”, “banana”, “mango”, “orange”,
+// “strawberry”]
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry"]
+
+// for(let a = 0; a < fruits.length; a++){
+//         console.log(`Yes ${fruits[a]} is available at index number ${a}`)
+// }
+
+// Q7: You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not.
+
+// var products = ["Processors", "Motherboards", "Graphic Cards", "RAMS", "SSD", "HDD"]
+// var askUser = prompt("Hey there! What do you want to buy?")
+
+// var signal;
+// var indexNumber;
+
+
+// for(let a = 0; a < products.length; a++){
+//     if(products[a] === askUser){
+//         signal = true
+//         indexNumber = a
+//     }
+// }
+
+// if(signal){
+//     console.log(`Yes ${askUser} are available at index number ${indexNumber}`)
+// }
+// else{
+//     console.log("Sorry " + askUser + " are currently not available in our store.")
+//     }
+
+// Q8: Write a program to identify the largest number in the
+// given array.
+
+// const A = [24, 53, 78, 91, 12];
+
+// let smallest = A[0];
+
+// for(let i = 1; i < A.length; i++) {
+//   if(A[i] < smallest) {
+//     smallest = A[i];
+//   }
+// }
+// console.log(smallest)
+
+// console.log("The smallest number in the array is: " + smallest);
+
+// Q6: Generate the following series in your browser. See
+// example output.
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+
+// a):
+// let counting;
+
+// for(let a = 0; a < 15; a++){
+//     counting += a + ","
+// }
+
+// document.write("Counting is: " + counting)
+
+// b):
+
+// let reverseCounting;
+
+// for(let a = 10; a >= 1; a--){
+//     reverseCounting += a + ","
+// }
+
+// console.log("Reverse counting is: " + reverseCounting)
+
+// c):
+
+// let evenNumbers = " ";
+
+// for(let a = 0; a <= 10; a++){
+//     evenNumbers += 2 * a + ","
+// }
+
+// console.log("Even numbers are: " + evenNumbers)
+
+// // d):
+
+// let oddNumbers = " ";
+
+// for(let a = 1; a <= 19; a+=2){
+//     oddNumbers += a + ", "
+// }
+
+// console.log("Odd numbers are: " + oddNumbers)
+
+// e):
+
+// let series = " ";
+
+// for(let a = 0; a <= 10; a++){
+//     evenNumbers += 2 * a + "k, "
+// }
+
+// console.log("Series: " + series)
